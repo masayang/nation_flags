@@ -62,7 +62,7 @@ def get_nations():
             "nation_name_e": nation_name,
             "png_url": "http:{}".format(flag_url),
             "nation_name_j": nation_name_j,
-            "wikipedia_url": get_wikipedia_url(nation_name),
+            "wikipedia_url_e": get_wikipedia_url(nation_name),
             "wikipedia_url_j": get_wikipedia_url_j(nation_name_j)
         })
     return nations

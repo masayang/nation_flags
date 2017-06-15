@@ -1,1 +1,2 @@
 include run_test.sh
+include nation_flags/.env

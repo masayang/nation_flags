@@ -142,7 +142,7 @@ class TestScrape(unittest.TestCase):
         for nation in nations:
             self.assertEquals(urllib2.urlopen(nation['png_url']).getcode(), 200)
             sleep(1)
-            self.assertEquals(urllib2.urlopen(nation['wikipedia_url']).getcode(), 200)
+            self.assertEquals(urllib2.urlopen(nation['wikipedia_url_e']).getcode(), 200)
             sleep(1)
             self.assertEquals(urllib2.urlopen(nation['wikipedia_url_j']).getcode(), 200)
             sleep(1)
